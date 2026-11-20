@@ -1,0 +1,9 @@
+name: CI
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    if: false
+    uses: other-org/x/.github/workflows/build.yml@main
+    with:
+      node-version: "20"

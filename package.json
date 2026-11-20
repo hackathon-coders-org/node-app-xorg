@@ -1,0 +1,14 @@
+{
+  "name": "node-app-xorg",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:ci": "jest --ci --coverage"
+  },
+  "dependencies": { "express": "^4.21.2" },
+  "devDependencies": { "jest": "^29.7.0", "supertest": "^7.0.0" }
+}
